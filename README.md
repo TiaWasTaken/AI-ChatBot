@@ -8,6 +8,16 @@ Welcome to the ChatBot AI! This intelligent chatbot is powered by Google's Gener
 
 - **User Customization:** Choose your username, emoji, and text color for a personalized chat experience.
 - **AI-Powered Responses:** The chatbot uses Google's Generative AI to provide intelligent and dynamic answers.
+
+### Dependency
+You will need to install the following dependency in order to run this code. Also in order to run it you will need an API key 
+
+```python
+pip install google-generativeai
+```
+
+Also in order to run it you will need an API key for google gemini, which you can create [here](https://aistudio.google.com/app/apikey)
+
 - **Interactive Help Menu:** Access a list of available commands to navigate the chatbot's functionalities.
 - **Instruction Management:** Set and clear instructions to guide the chatbot's behavior.
 
