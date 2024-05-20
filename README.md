@@ -36,37 +36,8 @@ The chatbot uses Google's Generative AI model (Gemini Pro) to generate responses
 ### User Customization
 The chatbot allows users to customize their chat experience by selecting a username, emoji, and text color:
 
-```python
-def get_user_name() -> str:
-    name = input("\n\033[1;33;40m[Type Skip to select 'You'] Select name: \033[1;37;40m")
-    if name.lower() == "skip":
-        return "You"
-    return name
+https://github.com/TiaWasTaken/AI-ChatBot/assets/151725770/2b28d7d4-150a-412d-bd33-5177b9514438
 
-def get_user_emoji() -> str:
-    emojis = ["👽", "💍", "🦊", "🕶️", "🍄", "🍒", "🎲", "🍀", "🥚", "🎧", "🐸"]
-    print("\n\033[1;33;40mSelect an emoji for your username:\033[1;37;40m")
-    for i, emoji in enumerate(emojis, start=1):
-        print(f"\033[1;32;40m{i}.\033[1;37;40m {emoji}")
-    choice = int(input("\n\033[1;33;40mType the number of the emoji you want: \033[1;37;40m"))
-    return emojis[choice - 1]
-
-def get_user_color() -> str:
-    colors = {
-        "red": "\033[1;31;40m",
-        "green": "\033[1;32;40m",
-        "yellow": "\033[1;33;40m",
-        "blue": "\033[1;34;40m",
-        "magenta": "\033[1;35;40m",
-        "cyan": "\033[1;36;40m",
-        "white": "\033[1;37;40m",
-    }
-    print("\n\033[1;33;40mSelect a color for your username:\033[1;37;40m")
-    for color_name, color_code in colors.items():
-        print(f"{color_code}{color_name}\033[1;37;40m")
-    choice = input("\n\033[1;33;40mType the name of the color you want: \033[1;37;40m").lower()
-    return colors.get(choice, "\033[1;37;40m")
-```
 
 ## Commands
 ### Help
