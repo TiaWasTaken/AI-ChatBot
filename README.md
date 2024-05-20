@@ -10,7 +10,7 @@ Welcome to the ChatBot AI! This intelligent chatbot is powered by Google's Gener
 - **AI-Powered Responses:** The chatbot uses Google's Generative AI to provide intelligent and dynamic answers.
 
 ### Dependencies
-You will need to install the following dependencies in order to run this code. Also in order to run it you will need an API key 
+You will need to install the following dependencies in order to run this code.
 
 ```python
 pip install google-generativeai
