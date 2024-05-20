@@ -36,8 +36,7 @@ The chatbot uses Google's Generative AI model (Gemini Pro) to generate responses
 ### User Customization
 The chatbot allows users to customize their chat experience by selecting a username, emoji, and text color:
 
-https://github.com/TiaWasTaken/AI-ChatBot/assets/151725770/2b28d7d4-150a-412d-bd33-5177b9514438
-
+https://github.com/TiaWasTaken/AI-ChatBot/assets/151725770/43a8077d-8004-477c-b8a3-fdb5a13e6468
 
 ## Commands
 ### Help
