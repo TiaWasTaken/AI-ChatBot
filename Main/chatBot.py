@@ -94,6 +94,12 @@ def chat_bot():
     while True:
         user_input: str = input(f"\n{user_display} \033[1;37;40m")
 
+        if API_KEY == "":
+            print(
+                "\n❌ \033[1;34;40mChatBot:\033[1;37;40m Please set your API_KEY in the .env file before starting. To get an API key go to: https://aistudio.google.com/app/apikey"
+            )
+            break
+
         if user_input.lower() in ["bye", "goodbye", "exit", "quit"]:
             print("\n👋 \033[1;34;40mChatBot:\033[1;37;40m Goodbye! Have a nice day!")
             break
